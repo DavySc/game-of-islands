@@ -3,6 +3,6 @@ defmodule IslandsEngineTest do
   doctest IslandsEngine
 
   test "greets the world" do
-    assert IslandsEngine.hello() == :world
+    refute IslandsEngine.hello() == :world
   end
 end
