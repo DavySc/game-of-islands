@@ -26,6 +26,6 @@ defmodule IslandsEngineTest do
          hit_coordinates: MapSet.new([])
        }}
 
-    assert IslandsEngine.Island.new(:l_shape, coordinate) = desired_island
+    assert IslandsEngine.Island.new(:l_shape, coordinate) == desired_island
   end
 end
